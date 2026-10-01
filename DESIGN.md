@@ -31,8 +31,9 @@ Dark, spacious, film-grained, editorial. Nothing shouts. The page breathes — s
 
 ## Color rules
 - No saturated colors. Ever. Accent used only for links, focus, active lang
-- Text on bg contrast ≥ 4.5:1 (fog on near-black passes)
-- Gradients banned; shadows nearly invisible (0 8px 40px rgba(0,0,0,.35) max)
+- **Project accents (user request, 2026-10-01):** each work in the projects list carries its own muted hue `--pa` — voice `#8FB3D9` (dusty blue), caser `#AB9BCB` (smoky violet), battle `#85B3A2` (sage), musor `#C79C8C` (warm rust). Visible at rest on the project link and meta line; on hover the project name, hairline, and a faint radial wash join. Chosen to stay inside the fog world while giving each row an identity
+- Text on bg contrast ≥ 4.5:1 (fog on near-black passes; all four project hues pass)
+- Gradients banned except the hover wash (functional, per-project identity) and the hero mist
 
 ## Motion
 - Appearances: opacity 0→1 + blur(10px)→0, 1.1s ease-out, staggered 90ms
